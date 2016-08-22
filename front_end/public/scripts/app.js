@@ -1,6 +1,4 @@
 $(document).ready(function() {
-	console.log("hooked up");
-
 	var data = {
 	    labels: [
 	        "Red",

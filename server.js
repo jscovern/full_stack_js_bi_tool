@@ -1,6 +1,6 @@
 var express = require('express');
-var app     = express();
-var port    = process.env.PORT || 3000;
+var app = express();
+var port = process.env.PORT || 3000;
 app.use(express.static('./front_end/public')); //this serves up the public folder into the root directory
 var bodyParser = require("body-parser");
 app.use(bodyParser.json());

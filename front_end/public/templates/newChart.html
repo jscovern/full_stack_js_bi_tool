@@ -1,0 +1,40 @@
+<!-- <form ng-controller="CreateChartController" ng-submit="CreateChartController.startCategoryCreation()">
+  <div>
+    <div>
+    	<label for="chartName">Chart Nasdfme</label>
+    	<input type="text" name="chartName" id="chartName" ng-model="newChart.chartName" placeholder="Chart Name">
+    </div>
+    <div>
+      <label for="numCategories">Number of Categories</label>
+      <input type="number" id="numCategories" ng-model="newChart.categoryCount" placeholder="# Categories">
+    </div>
+    <div>
+      <input type="submit" value="Create New Chart">
+    </div>
+  </div>
+</form>
+<form ng-controller="CreateChartController" ng-submit="">
+  <div ng-repeat="category in newChart.categoryCount">
+  	<h3>Category {{$index +1}}</h3>
+    <label for="label{{$index +1}}">Category:</label>
+    <input type="text" id="newChartCategory{{$index +1}}" ng-model="newChart.category{{$index +1}}" placeholder="Category">
+    <label for="value{{$index +1}}">Value:</label>
+    <input type="number" id="newChartValue{{$index +1}}" ng-model="newChart.value{{$index +1}}" placeholder="Enter Value">
+    <label for="color{{$index +1}}">Color:</label>
+    <select id="color{{$index +1}}" ng-model="newChart.color{{$index +1}}">
+      <option value="" disabled>- - Please Select One - -</option>
+      <option value="Blue">Blue</option>
+      <option value="lightblue">Light Blue</option>
+      <option value="white">White</option>
+      <option value="red">Red</option>
+      <option value="yellow">Yellow</option>
+      <option value="orange">Orange</option>
+      <option value="green">Green</option>
+      <option value="black">Black</option>
+    </select>
+  </div>
+  <div>
+    <input type="submit" value="Add Data to Chart">
+  </div>
+</form>
+ -->
